@@ -299,7 +299,17 @@ CentOS可以yum安装
 1yum install -y nodejs
 安装hexo
 1npm install -g hexo
-升
+升级hexo
+1npm update hexo -g
+初始化BLOG建立一个文件夹blog作为博客的文件夹
+12cd bloghexo init
+后面对于博客的操作都在此文件夹下进行
+生成博客的文件
+1hexo generate #可以简写为：hexo g
+启动一个本地服务器，http://localhost:4000
+1hexo server #可以简写为：hexo s
+编写blog
+将写好的ma
           ...
 
           <div class="post-more-link text-center">
